@@ -4,7 +4,7 @@ Bubble Shooter is a simple interactive game. The goal of the game is to clear th
 2. C++
 For detail descriptions please see [technical.pdf](technical_doc.pdf)
 
-## Environment Setup for linux
+## Environment Setup and run the game on linux
 1. First install necessary packages using 
 
   ```sudo apt-get install freeglut3 freeglut3-dev mesa-common-dev```
@@ -12,7 +12,7 @@ For detail descriptions please see [technical.pdf](technical_doc.pdf)
 2. Then build the cpp file using
 
   ```g++ -o bubble_shooter bubble_shooter.cpp -lglut -lGLU```
-or
+  or
 
   ```g++ -o bubble_shooter.out bubble_shooter.cpp -lglut -lGLU -lGL```
 

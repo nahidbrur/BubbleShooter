@@ -7,12 +7,13 @@ For detail descriptions please see [technical.pdf](technical_doc.pdf)
 ## Environment Setup for linux
 1. First install necessary packages using 
 
-```sudo apt-get install freeglut3 freeglut3-dev mesa-common-dev```
+  ```sudo apt-get install freeglut3 freeglut3-dev mesa-common-dev```
 
 2. Then build the cpp file using
 
-```g++ -o bubble_shooter bubble_shooter.cpp -lglut -lGLU```
+  ```g++ -o bubble_shooter bubble_shooter.cpp -lglut -lGLU```
 or
-```g++ -o bubble_shooter.out bubble_shooter.cpp -lglut -lGLU -lGL```
+
+  ```g++ -o bubble_shooter.out bubble_shooter.cpp -lglut -lGLU -lGL```
 
 3. Finally double click on `bubble_shooter.out` and enjoy the game
